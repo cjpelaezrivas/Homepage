@@ -2,9 +2,13 @@ import * as localStorage from "./utils/local-storage.js";
 import { BACKGROUND_FOLDER, WEATHER_CODES } from "./classes/configurations.js";
 
 const directories = new Map([
+    ["clouds", { size: 5, extension: "png" }],
     ["cyberpunk", { size: 3, extension: "mp4" }],
     ["firewatch", { size: 1, extension: "mp4" }],
-    ["kps", { size: 8, extension: "jpg" }],
+    ["fluted", { size: 9, extension: "png" }],
+    ["gradients", { size: 19, extension: "png" }],
+    ["ksp", { size: 8, extension: "jpg" }],
+    ["mountains", { size: 8, extension: "png" }],
     ["rdr2", { size: 7, extension: "jpg" }]
 ]);
 

@@ -5,5 +5,5 @@ class Configuration {
     }
 };
 
-export const BACKGROUND_FOLDER = new Configuration("background_folder", "rdr2");
+export const BACKGROUND_FOLDER = new Configuration("background_folder", "clouds");
 export const WEATHER_CODES = new Configuration("weather_codes", "");
